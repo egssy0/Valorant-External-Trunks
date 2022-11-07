@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\kdmapper\intel_driver.cpp">
+      <Filter>kdmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kdmapper\kdmapper.cpp">
+      <Filter>kdmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kdmapper\portable_executable.cpp">
+      <Filter>kdmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kdmapper\service.cpp">
+      <Filter>kdmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kdmapper\utils.cpp">
+      <Filter>kdmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\imgui\imgui.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\imgui\imgui_demo.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\imgui\imgui_draw.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\imgui\imgui_impl_dx9.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\imgui\imgui_impl_win32.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\imgui\imgui_tables.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\imgui\imgui_widgets.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\cheat.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\structs.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\globals.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\render.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\menu.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCTLDefine.h" />
+    <ClInclude Include="..\kdmapper\intel_driver.hpp">
+      <Filter>kdmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kdmapper\intel_driver_resource.hpp">
+      <Filter>kdmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kdmapper\kdmapper.hpp">
+      <Filter>kdmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kdmapper\nt.hpp">
+      <Filter>kdmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kdmapper\portable_executable.hpp">
+      <Filter>kdmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kdmapper\service.hpp">
+      <Filter>kdmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kdmapper\utils.hpp">
+      <Filter>kdmp</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="xorstr.h" />
+    <ClInclude Include="xor.hpp" />
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="MenuFonts.h" />
+    <ClInclude Include="MenuControls.h" />
+    <ClInclude Include="MenuBackGround.h" />
+    <ClInclude Include="..\Includes\imgui\imconfig.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\imgui\imgui.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\imgui\imgui_impl_dx9.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\imgui\imgui_impl_win32.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\imgui\imgui_internal.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\imgui\imstb_rectpack.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\imgui\imstb_textedit.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\imgui\imstb_truetype.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.hpp" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="mapdriver.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="icons.h" />
+    <ClInclude Include="iconcpp.h" />
+    <ClInclude Include="font.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ed75c461-8a8c-41e2-9551-a85b4de83294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{a5b155fc-b019-457e-a4d7-c391f30143d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{7d2a3ee2-ed36-43a4-81ec-8059b47d6c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{39406d82-fe78-47f5-8e04-b83774d34cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kdmp">
+      <UniqueIdentifier>{9575f75c-1e34-4afb-a24f-f2d286c36e7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\black-twitter-icon-9 (1).jpg" />
+    <Image Include="..\..\..\..\Downloads\black-twitter-icon-9 (1).ico" />
+  </ItemGroup>
+</Project>
